@@ -1,0 +1,31 @@
+{
+  "name": "simple-open-jquery-plugins",
+  "version": "1.0.0",
+  "description": "Simple jQuery Plugins",
+  "main": "not defined yet",
+  "dependencies": {
+    "grunt-cli": "^0.1.13"
+  },
+  "devDependencies": {
+    "grunt-cli": "^0.1.13"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ifch0o1/simple-open-jquery-plugins.git"
+  },
+  "keywords": [
+    "jquery",
+    "plugins",
+    "simple",
+    "open"
+  ],
+  "author": "Ivo Tanev <ivo.h.tanev@gmail.com> (https://ivotanevblog.wordpress.com)",
+  "license": "Apache v2.0",
+  "bugs": {
+    "url": "https://github.com/ifch0o1/simple-open-jquery-plugins/issues"
+  },
+  "homepage": "https://github.com/ifch0o1/simple-open-jquery-plugins"
+}

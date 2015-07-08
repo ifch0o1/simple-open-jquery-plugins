@@ -1,0 +1,26 @@
+{
+  "name": "simple-open-jquery-plugins",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ifch0o1/simple-open-jquery-plugins",
+  "authors": [
+    "ifch0o1 <ifch0o69@gmail.com>"
+  ],
+  "description": "Simple Open jQuery Plugins",
+  "keywords": [
+    "jquery",
+    "plugins",
+    "open",
+    "simple"
+  ],
+  "license": "Apache v2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.9.*"
+  }
+}
