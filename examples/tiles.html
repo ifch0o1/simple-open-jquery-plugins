@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SJ tiles</title>
+	<!-- jQuery 1.9.x -->
+	<script type="text/javascript" src="/bower_components/jquery/jquery.js"></script>
+
+	<!-- AnimateAutoWidth plugin (required by tiles) -->
+	<script type="text/javascript" src="/src/js/animateAutoWidth.js"></script>
+
+	<!-- Simple jQuery Open Plugin (Tiles) -->
+	<script type="text/javascript" src="/src/js/tiles.js"></script>
+
+	<!-- Simple jQuery Open Plugin (Tiles) Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="/src/css/tiles.css">
+
+	<!-- Example javascript file -->
+	<script type="text/javascript" src="tiles.js"></script>
+</head>
+<style type="text/css">
+	html, body {
+		height: 100%;
+		background-color: #aaa;
+	}
+</style>
+<body>
+	<div class="wrapper" style="margin: 20px auto">
+		<h2>Not separated tiles. width:300px comming from tiles.js (examples/) folder.</h2>
+
+		<div class="not-separated">
+			<a href="#" class="sj-tile blue">
+				<div class="default-content">
+					<h1>Heading 1</h1>
+				</div>
+				<div class="hover-content">
+					<p>Hover content goes here.</p>
+				</div>
+			</a>
+
+			<div class="sj-tile white">
+				<div class="default-content">
+					<h1>Heading</h1>
+				</div>
+				<div class="hover-content">
+					<span style="display:inline-block; width:48px; height:48px; background-color:#888"></span>
+					<span style="display:inline-block; width:48px; height:48px; background-color:#888"></span>
+					<span style="display:inline-block; width:48px; height:48px; background-color:#888"></span>
+					<div style="background-color: #666"><p>Block content</p></div>
+				</div>
+			</div>
+
+			<div class="sj-tile orange">
+				<div class="default-content">
+					<h1>Long heading text... The elephant is too weight to walk through the bridge.</h1>
+				</div>
+				<div class="hover-content">
+					<p>Small content</p>
+				</div>
+			</div>
+
+			<div class="sj-tile black">
+				<div class="default-content">
+					<h1>Small head</h1>
+				</div>
+				<div class="hover-content">
+					<p>
+						Long content here. Lorem Facade grow in the forest where the mushrooms are prepended <br>
+						I wanna eat some mushrooms but I do not wanna die. Some mushrooms are poisoned.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<h2>Separated tiles inside divs - display: table</h2>
+
+		<div class="separated">
+			<div style="display: table; width: 400px; text-align: center">
+				<a href="#" class="sj-tile blue">
+					<div class="default-content">
+						<h1>Heading 1</h1>
+					</div>
+					<div class="hover-content">
+						<p>Hover content goes here.</p>
+					</div>
+				</a>
+			</div>
+
+			<div style="display: table; width: 400px; text-align: center">
+				<div class="sj-tile white">
+					<div class="default-content">
+						<h1>Heading</h1>
+					</div>
+					<div class="hover-content">
+						<span style="display:inline-block; width:48px; height:48px; background-color:#888"></span>
+						<span style="display:inline-block; width:48px; height:48px; background-color:#888"></span>
+						<span style="display:inline-block; width:48px; height:48px; background-color:#888"></span>
+						<div style="background-color: #666"><p>Block content</p></div>
+					</div>
+				</div>
+			</div>
+
+			<div style="display: table; width: 400px; text-align: center">
+				<div class="sj-tile orange">
+					<div class="default-content">
+						<h1>Long heading text... The elephant is too weight to walk through the bridge.</h1>
+					</div>
+					<div class="hover-content">
+						<p>Small content</p>
+					</div>
+				</div>
+			</div>
+
+			<div style="display: table; width: 400px; text-align: center">
+				<div class="sj-tile black">
+					<div class="default-content">
+						<h1>Small head</h1>
+					</div>
+					<div class="hover-content">
+						<p>
+							Long content here. Lorem Facade grow in the forest where the mushrooms are prepended <br>
+							I wanna eat some mushrooms but I do not wanna die. Some mushrooms are poisoned.
+						</p>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+</body>
+</html>

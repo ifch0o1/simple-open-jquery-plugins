@@ -28,3 +28,6 @@ node_modules
 
 # Bower componrnts dependency directory
 bower_components
+
+#local server folder
+local-srv
