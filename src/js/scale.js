@@ -1,7 +1,7 @@
 (function($) {
 
 	$.fn.sjScale = function() {
-		if (!arguments[0] || !$.isNumeric(arguments[0])) {
+		if (arguments[0] === undefined || !$.isNumeric(arguments[0])) {
 			throw new Error('Cannot scale without value. Excepting argument[0] as numeric value');
 		}
 

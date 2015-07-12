@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SJ Rotate</title>
+
+	<!-- jQuery 1.9.x -->
+	<script type="text/javascript" src="/bower_components/jquery/jquery.js"></script>
+
+	<!-- Scale require jquery-transfrom plugin -->
+	<script type="text/javascript" src="/bower_components/jquery-transform/jquery.transform2d.js"></script>
+
+	<!-- Simple jQuery Open Plugin (Scale) -->
+	<script type="text/javascript" src="/src/js/rotate.js"></script>
+
+	<style type="text/css">
+		.rotable-div {
+			background-color: #14f;
+			width: 200px;
+			height: 200px;
+			margin: 100px;
+		}
+	</style>
+
+</head>
+<body>
+
+	<!-- divs -->
+	<div class="rotable-div d1"></div>
+	<div class="rotable-div d2"></div>
+
+
+	<!-- script -->
+	<script type="text/javascript">
+	$('.d1').on('click', function() {
+		$(this).sjRotate(20); // Rotate 20 deg
+	});
+	$('.d2').on('click', function() {
+		$(this).sjRotate('-90', {
+			duration: 600,
+			done: function() {
+				$(this).sjRotate(0, {duration: 200});
+			}
+		});
+	});
+	</script>
+
+</body>
+</html>
