@@ -1,8 +1,8 @@
 (function($) {
 
 	$.fn.sjAnimateAutoWidth = function(options) {
-		var cw,
-		    nw;
+		var currentWidth,
+		    newWidth;
 
 		var settings = $.extend({
 			duration: 200,
@@ -10,11 +10,11 @@
 		}, options);
 
 		this.each(function(index, el) {
-			cw = el.width();
+			currentWidth = el.width();
 			el.css('width', 'auto');
-			nw = el.width();
-			el.width(cw);
-			el.animate({'width': nw}, settings);
+			newWidth = el.width();
+			el.width(currentWidth);
+			el.animate({'width': newWidth}, settings);
 		});
 
 		return this;
